@@ -1,0 +1,57 @@
+*{
+    background-color: rgb(207, 207, 218);
+    
+}
+
+h1 {
+    color: rgb(36, 10, 59);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    
+}
+
+h2 {
+    color: rgb(26, 11, 41);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 19px;  
+    text-align: center; 
+   
+}
+.num {
+ text-align: center;
+}
+
+#num1 {
+    background-color: rgb(246, 244, 248);
+    color: rgb(160, 71, 168);
+    border: rgb(79, 18, 85) 2px solid;
+    width: 100px;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    
+}
+
+#num2 {
+    background-color: rgb(246, 244, 248);
+    color: rgb(160, 71, 168);
+    border:rgb(79, 18, 85) 2px solid;
+    width: 100px;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    
+}
+
+button {
+    background-color: rgb(233, 180, 180);
+    color: blanchedalmond;
+    padding: auto;
+    color: black;
+    font-size: 17px;
+    font-style: arial;
+    letter-spacing: 1px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(231, 191, 130);
+}

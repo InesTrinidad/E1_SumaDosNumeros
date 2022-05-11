@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" href="./index.css" rel="stylesheet">
+    <title>SUMA DE DOS NUMEROS</title>
+</head>
+<body>
+    <h1>SUMA DE DOS NUMEROS</h1> <br>
+    <h2>Ingresa los numeros que quieres sumar en los recuerdos mostrados</h2>
+    <br><br>  
+<form >
+    <div class="num">
+    <input type="text" id="num1"><br><br><br>  
+    <input type="text" id="num2"><br><br><br>  
+    <button onclick="suma()">SUMAR</button><br><br> 
+    
+    <script>
+         
+        function suma(){
+            var num1= parseInt(document.getElementById("num1").value);
+            var num2= parseInt(document.getElementById("num2").value);
+            var suma;
+            suma= num1 + num2;
+            alert("La suma de los numeros es:  "+suma);
+    }  
+    </script>
+</form>
+</div>
+</body>
+</html>
